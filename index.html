@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB Color Selector</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>RGB Color Selector</h1>
+        </div>
+        <label for="rangeRed">
+            <p>Red</p>
+            <input type="range" name="rangeRed" id="rangeRed" min="0" max="255">
+            <input class="inputText" type="textRed" name="textRed" id="textRed" value="0">
+        </label>
+
+        <label for="rangeGreen">
+            <p>Green</p>
+            <input type="range" name="rangeGreen" id="rangeGreen" min="0" max="255">
+            <input class="inputText" type="textGreen" name="textGreen" id="textGreen" value="0">
+        </label>
+
+        <label for="rangeBlue">
+            <p>Blue</p>
+            <input type="range" name="rangeBlue" id="rangeBlue" min="0" max="255">
+            <input class="inputText" type="textGreen" name="textGreen" id="textBlue" value="0">
+        </label>
+
+        <div class="colorSquare"></div>
+    </div>
+
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
