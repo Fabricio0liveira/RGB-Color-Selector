@@ -43,6 +43,15 @@ div.colorSquare {
     border-radius: 0.5rem;
 }
 
+footer {
+    position: absolute;
+    text-align: center;
+    color: black;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
 @media screen and (max-width: 500px) {
     div.colorSquare {
         width: 40%;
